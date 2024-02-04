@@ -6,10 +6,13 @@ import useApiMutation from "@/hooks/use-api-mutation";
 import { useOrganization } from "@clerk/nextjs";
 import { Loader2Icon } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { toast } from "sonner";
 
 const EmptyBoard = () => {
+  const router = useRouter();
+
   const { organization } = useOrganization();
   const { mutate, pending } = useApiMutation(api.board.create);
   const onClick = () => {
@@ -17,9 +20,12 @@ const EmptyBoard = () => {
     mutate({
       orgId: organization.id,
       title: "Untitled",
-    }).then(id=>{
-      toast.success("Board created");
-    }).catch(()=>toast.error("Failed to create Board"));
+    })
+      .then((id) => {
+        toast.success("Board created");
+        router.push(`/board/${id}`);
+      })
+      .catch(() => toast.error("Failed to create Board"));
   };
   return (
     <div className="h-full flex flex-col items-center justify-center">
