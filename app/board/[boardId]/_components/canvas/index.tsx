@@ -263,7 +263,7 @@ const Canvas = ({ boardId }: CanvasProps) => {
         origin: point,
       });
     },
-    [camera, canvasState.mode, setCanvasState]
+    [camera, canvasState.mode, setCanvasState, startDrawing]
   );
 
   const onPointerUp = useMutation(
