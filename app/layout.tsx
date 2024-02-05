@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Micro Clone</title>
+      </head>
       <body className={inter.className}>
         <Suspense fallback={<Loading/>}>
           <ConvexClientProvider>
