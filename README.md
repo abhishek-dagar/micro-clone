@@ -4,10 +4,10 @@
 Micro Clone is a powerful whiteboard application built with Next.js 14 framework, styled with TailwindCSS & ShadcnUI. It offers a comprehensive set of features including a customizable toolbar with text, shapes, sticky notes, and pencil tools, layering functionality, a versatile coloring system, undo & redo functionality, keyboard shortcuts, real-time collaboration, real-time database integration, authentication, organization management, favoriting functionality, and more. With its user-friendly interface and advanced features, Micro Clone provides a seamless and efficient whiteboarding experience for individuals and teams.
 
 ## Dashboard
-![dashboard](screenshots\dashboard.png)
+<img src="screenshots/dashboard.png" alt="dashboard">
 
 ## Board
-![board](screenshots\board.png)
+<img src="screenshots/board.png" alt="board">
 
 ## Key Features
 - 🛠️ Whiteboard from scratch
