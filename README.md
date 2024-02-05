@@ -29,14 +29,12 @@ Micro Clone is a powerful whiteboard application built with Next.js 14 framework
 3. [Add any other installation steps as needed]
 
 ## Usage
-1. Run `npm start` to start the application.
-2. [Add any other usage instructions as needed]
+1. Run `npm run dev` to start the application.
+2. Run `npx convex dev` to start the convex in another application.
+3. add .env.local to add keys for development
 
 ## Contributing
 We welcome contributions from the community. Please see our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-For any inquiries, please contact [Your Name] at [Your Email].
