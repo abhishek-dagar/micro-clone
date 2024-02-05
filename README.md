@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Micro Clone
 
-## Getting Started
+## Description
+Micro Clone is a powerful whiteboard application built with Next.js 14 framework, styled with TailwindCSS & ShadcnUI. It offers a comprehensive set of features including a customizable toolbar with text, shapes, sticky notes, and pencil tools, layering functionality, a versatile coloring system, undo & redo functionality, keyboard shortcuts, real-time collaboration, real-time database integration, authentication, organization management, favoriting functionality, and more. With its user-friendly interface and advanced features, Micro Clone provides a seamless and efficient whiteboarding experience for individuals and teams.
 
-First, run the development server:
+## Dashboard
+![dashboard](screenshots\dashboard.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Board
+![board](screenshots\board.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
+- 🛠️ Whiteboard from scratch
+- 🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil
+- 🪄 Layering functionality
+- 🎨 Coloring system
+- ↩️ Undo & Redo functionality
+- ⌨️ Keyboard shortcuts
+- 🤝 Real-time collaboration
+- 💾 Real-time database
+- 🔐 Auth, organisations and invites
+- ⭐️ Favoriting functionality
+- 🌐 Built with Next.js 14 framework
+- 💅 Styled with TailwindCSS & ShadcnUI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. [Add any other installation steps as needed]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
+1. Run `npm start` to start the application.
+2. [Add any other usage instructions as needed]
 
-## Learn More
+## Contributing
+We welcome contributions from the community. Please see our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+For any inquiries, please contact [Your Name] at [Your Email].
